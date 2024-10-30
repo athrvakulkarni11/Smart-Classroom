@@ -7,7 +7,7 @@ export async function POST(req) {
 
         // Initialize BardAPI object
         const bard = new BardAPI();
-        const apiKey = 'AIzaSyDvujJ5BC_kMt1IamSE5f6hoAiU91nraz0'; // Store your API key in an environment variable
+        const apiKey = 'YOUR_API_KEY'; // Store your API key in an environment variable
 
         // Initialize chat with API key
         await bard.initializeChat(apiKey);
