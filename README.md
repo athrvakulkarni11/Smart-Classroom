@@ -14,7 +14,7 @@ npm install
 ```
 npm run dev
 ```
-### Run Backend (got to scripts folder)
+### Run Backend (go to scripts folder)
 
 ```
 python detect_recog.py
